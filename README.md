@@ -17,4 +17,5 @@ The repositoty has 3 directories:
 The Residual Variational AutoEncoder for the leaf skeleton generation is in RES_VAE.ipynb. The trained model described in the paper is saved in the `Results` directory. The code is tailored for being used also on Colab.
 
 The result of the pretrained model is downbelow
-![Image](index.png "icon")
+
+![Image](./index.png "icon")
