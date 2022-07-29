@@ -18,4 +18,4 @@ The Residual Variational AutoEncoder for the leaf skeleton generation is in RES_
 
 The result of the pretrained model is downbelow
 
-![Image](./index.png "icon")
+![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/ex_ResVae.png "Example of ResVAE")
