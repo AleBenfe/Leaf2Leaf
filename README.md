@@ -43,10 +43,22 @@ A conditional Generative Adversarial Network (cGAN) is employed for the developm
 
 * `train/A`: it contains the training samples of vein patterns
 * `train/B`: it contains the training samples of leaf RGB images
-* `train/C`: it contains the training samples of leaf RGNIR images. For employing RGNIR images, change `path2 = path + '/B'` into `path2 = path + '/C'` in the second cell if `pix2pix.ipynb` 
+* `train/C`: it contains the training samples of leaf RGNIR images. For employing RGNIR images, change 
+
+```
+path2 = path + '/B'
+```
+
+into 
+
+```
+path2 = path + '/C'
+```
+ in the second cell of `pix2pix.ipynb` 
 * `Results`: it contains the pretrained model
 
 Down below one possible result of the generator: on the left, a vein pattern that was not employed for the training, on the right the generated complete leaf
+
 ![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/not_seen.png "Unseen veins pattern") ![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/generated.png "Complete generated image")
 
 ## Leaf2LeafTranslation
@@ -56,6 +68,7 @@ End-to-End procedure: a synthetic leaf veins pattern is created, which is then p
 * `model_nir_012000.h5`: it contains the cGAN's generator for RGNIR images.
 
 Down below a possible result is shown: on the left, a synthetic veins pattern created by the decoder of the ResVAE, on the right the complete generated leaf.
+
  ![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/e2e.png "Unseen veins pattern") 
 
 
