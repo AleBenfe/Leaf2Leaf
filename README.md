@@ -2,11 +2,11 @@
 
 Python code for Leaf2Leaf architecture described in 
 
-A. Benfenati, D. Bolzi, P.Causin and R. Oberti, *A Deep Learning Generative Model Approach for Image Synthesis of Plant Leaves*
+A. Benfenati, D. Bolzi, P. Causin and R. Oberti, *A Deep Learning Generative Model Approach for Image Synthesis of Plant Leaves*, under peer review ([pdf](https://arxiv.org/pdf/2111.03388.pdf))
 
 The code is based on Tensorflow and Keras.
 
-The repositoty has 3 directories:
+The repository has 3 directories:
 
 - [ResVae](https://github.com/AleBenfe/Leaf2Leaf#resvae)
 - [pix2pix](https://github.com/AleBenfe/Leaf2Leaf#pix2pix)
@@ -36,7 +36,7 @@ generated = loaded_decoder.predict(to_build)
 
 One of the possible results is depicted below
 <br>
-<img src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" data-canonical-src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" width="250" height="250" />
+<img align="center" src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" data-canonical-src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" width="250" height="250" />
 
 ## pix2pix
 
