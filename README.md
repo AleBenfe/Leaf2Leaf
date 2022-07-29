@@ -9,8 +9,8 @@ The code is based on Tensorflow and Keras.
 The repositoty has 3 directories:
 
 - [ResVae](https://github.com/AleBenfe/Leaf2Leaf#resvae)
-- pix2pix
-- Leaf2LeafTranslation
+- [pix2pix](https://github.com/AleBenfe/Leaf2Leaf#pix2pix)
+- [Leaf2LeafTranslation](https://github.com/AleBenfe/Leaf2Leaf#leaf2leaftranslation)
 
 ## ResVae
 
@@ -18,7 +18,7 @@ The Residual Variational AutoEncoder for the leaf skeleton generation is in `RES
 
 The result of the pretrained model is downbelow: on the left the training sample is shown, whilst on the right the recovered image by the ResVAE is depicted.
 
-![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_ResVae.png "Results of ResVAE")
+![Result of ResVAE](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_ResVae.png "Result of ResVAE")
 
 ### Creation of a new syinthetic sample
 
@@ -35,7 +35,8 @@ generated = loaded_decoder.predict(to_build)
 ```
 
 One of the possible results is depicted below
-<img src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" data-canonical-src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" width="200" height="200" />
+<br>
+<img src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" data-canonical-src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" width="250" height="250" />
 
 ## pix2pix
 
@@ -59,7 +60,7 @@ path2 = path + '/C'
 
 Down below one possible result of the generator: on the left, a vein pattern that was not employed for the training, on the right the generated complete leaf.
 <br>
-![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/not_seen.png "Unseen veins pattern") ![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/generated.png "Complete generated image")
+![Unseen veins pattern](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/not_seen.png "Unseen veins pattern") ![Complete generated image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/generated.png "Complete generated image")
 
 ## Leaf2LeafTranslation
 
