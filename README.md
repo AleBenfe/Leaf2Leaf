@@ -36,7 +36,7 @@ generated = loaded_decoder.predict(to_build)
 
 One of the possible results is depicted below
 <br>
-<p align="left" width="100%">
+<p align="center" width="100%">
     <img width="33%" src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" alt="Syinthetic veins pattern">
 </p>
 
