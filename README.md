@@ -35,7 +35,7 @@ generated = loaded_decoder.predict(to_build)
 ```
 
 One of the possible results is depicted below
-![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png "Example of generated image")
+![Image height="300"](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png "Example of generated image")
 
 ## pix2pix
 
@@ -57,8 +57,8 @@ path2 = path + '/C'
  in the second cell of `pix2pix.ipynb` 
 * `Results`: it contains the pretrained model
 
-Down below one possible result of the generator: on the left, a vein pattern that was not employed for the training, on the right the generated complete leaf
-
+Down below one possible result of the generator: on the left, a vein pattern that was not employed for the training, on the right the generated complete leaf.
+<br>
 ![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/not_seen.png "Unseen veins pattern") ![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/generated.png "Complete generated image")
 
 ## Leaf2LeafTranslation
