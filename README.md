@@ -35,7 +35,7 @@ generated = loaded_decoder.predict(to_build)
 ```
 
 One of the possible results is depicted below
-![Image](https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png | width=100 "Example of generated image")
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" width="200" height="200" />
 
 ## pix2pix
 
