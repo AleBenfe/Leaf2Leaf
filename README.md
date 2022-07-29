@@ -2,7 +2,7 @@
 
 Python code for Leaf2Leaf architecture described in 
 
-A. Benfenati, D. Bolzi, P. Causin and R. Oberti, *A Deep Learning Generative Model Approach for Image Synthesis of Plant Leaves*, under peer review ([pdf](https://arxiv.org/pdf/2111.03388.pdf))
+A. Benfenati, D. Bolzi, P. Causin and R. Oberti, *A Deep Learning Generative Model Approach for Image Synthesis of Plant Leaves*, under peer review ([preprint](https://arxiv.org/pdf/2111.03388.pdf))
 
 The code is based on Tensorflow and Keras.
 
@@ -36,7 +36,9 @@ generated = loaded_decoder.predict(to_build)
 
 One of the possible results is depicted below
 <br>
-<img align="center" src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" data-canonical-src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" width="250" height="250" />
+<p align="left" width="100%">
+    <img width="33%" src="https://github.com/AleBenfe/Leaf2Leaf/blob/main/Figures/ex_generated.png" alt="Syinthetic veins pattern">
+</p>
 
 ## pix2pix
 
