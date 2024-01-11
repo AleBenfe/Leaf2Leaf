@@ -2,9 +2,9 @@
 
 Python code for Leaf2Leaf architecture described in 
 
-A. Benfenati, D. Bolzi, P. Causin and R. Oberti, *A Deep Learning Generative Model Approach for Image Synthesis of Plant Leaves*, under peer review ([preprint](https://arxiv.org/pdf/2111.03388.pdf))
+Benfenati A, Bolzi D, Causin P, Oberti R (2022) A deep learning generative model approach for image synthesis of plant leaves. PLOS ONE 17(11): e0276972. ([DOI](https://doi.org/10.1371/journal.pone.0276972))
 
-The code is based on Tensorflow and Keras.
+The code is based on Tensorflow and Keras modules.
 
 The repository has 3 directories:
 
